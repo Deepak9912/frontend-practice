@@ -35,6 +35,7 @@
       </nav>
     </header>
     <!--Carousel section-->
+    <section id="carousel">
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -56,8 +57,23 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+    </section>
+    <!--intro section-->
+    <section id="intro" class="text-center my-2">
+      <h2 class="text-success">Introduction</h2>
+      <p>This website offers Add task to the list function, Where user can add the task.</p>
+      <p>One the task is complete, user can single click on it to mark it done.</p>
+      <p>Or if user double clicks on it, task will be completely removed.</p>
+    </section>
+      <!--to do list-->
+    <section id="todo" class="text-center">
+      <h2 class="mt-3 text-success">To do list</h2>
+      <input type="text" class="p-2 border-success" id="inputField"><button id="addToDo" class="p-2 mx-2">+</button>
+      <div id="toDoContainer" class="to-dos mt-3"></div>
+    </section>
 
     <!--Javascript-->
+    <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
